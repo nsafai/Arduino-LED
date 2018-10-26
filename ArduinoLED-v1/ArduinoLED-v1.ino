@@ -14,8 +14,7 @@ CRGB leds[NUM_LEDS];
 
  
 void setup() {
-  FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);
-
+  FastLED.addLeds<NEOPIXEL, LED_PIN>(leds, NUM_LEDS);
 }
  
 void loop() {
