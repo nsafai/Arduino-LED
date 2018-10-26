@@ -12,10 +12,12 @@ Download Arduino IDE, clone repo, open specific file, set correct port, click up
 
 ## Milestones
 
-1- Setup grids (columns, rows)
+- [ ] 0- Meet and get on the same page
 
-2- Generating LED matrixes from input like a letter or an image
+- [ ] 1- Setup grids (columns, rows)
 
-3- Animating the content generated in (2)
+- [ ] 2- Generating LED matrixes from input like a letter or an image
 
-4- Timing the animations in (3) based on music input
+- [ ] 3- Animating the content generated in (2)
+
+- [ ] 4- Timing the animations in (3) based on music input
