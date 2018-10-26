@@ -12,7 +12,7 @@ Download Arduino IDE, clone repo, open specific file, set correct port, click up
 
 ## Milestones
 
-- [ ] 0- Meet and get on the same page
+- [x] 0- Meet and get on the same page
 
 - [ ] 1- Setup grids (columns, rows)
 
