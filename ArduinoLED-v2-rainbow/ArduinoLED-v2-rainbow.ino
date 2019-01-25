@@ -1,3 +1,6 @@
+#include <Adafruit_NeoMatrix.h>
+#include <gamma.h>
+
 #include <FastLED.h>
 #define NUM_LEDS 256
 #define DATA_PIN 6
