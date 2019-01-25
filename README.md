@@ -14,9 +14,9 @@ Download Arduino IDE, clone repo, open specific file, set correct port, click up
 
 - [x] 0- Meet and get on the same page
 
-- [ ] 1- Setup grids (columns, rows)
+- [x] 1- Setup grids (columns, rows)
 
-- [ ] 2- Generating LED matrixes from input like a letter or an image
+- [x] 2- Generating LED matrixes from input like a letter or an image
 
 - [ ] 3- Animating the content generated in (2)
 
