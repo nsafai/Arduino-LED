@@ -20,10 +20,6 @@ void setup() {
 }
  
 void loop() {
-//  for(int dot = 0; dot < NUM_LEDS; dot++) {
-////    leds[dot].setHue(dot);
-////    FastLED.show();
-//  }
   for(int dot = 0; dot < NUM_LEDS; dot++) {
       
       leds[dot].setHue(dot);

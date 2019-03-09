@@ -1,11 +1,10 @@
 #include <Adafruit_NeoPixel.h>
-
-#include <gfxfont.h>
 #include <Adafruit_GFX.h>
-#include <Adafruit_SPITFT.h>
-#include <Adafruit_SPITFT_Macros.h>
-
 #include <Adafruit_NeoMatrix.h>
+
+//#include <gfxfont.h>
+//#include <Adafruit_SPITFT.h>
+//#include <Adafruit_SPITFT_Macros.h>
 
 #include <gamma.h>
 
@@ -50,10 +49,18 @@ void printRainbowText(String text) {
   matrix.show();
 }
 
+void rastaFlag() {
+  matrix.fillScreen(0);
+  matrix.fillRect(0, 0, 8, 3, matrix.Color(0, 255, 0));    // Upper section
+  matrix.fillRect(0, 3, 8, 2, matrix.Color(255, 0, 0)); // Mid
+  matrix.fillRect(0, 5, 8, 3, matrix.Color(0, 0, 255));  // Lower section
+  matrix.show();
+}
+
 
 void loop() {
   printRainbowText("Hell yeah !");
-
+//  rastaFlag();
   delay(50);
 }
 
