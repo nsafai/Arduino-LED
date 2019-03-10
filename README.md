@@ -5,6 +5,7 @@
 **Hardware:** 
 - 8x32 LED grid by BTF Lighting ([Amazon link](https://smile.amazon.com/gp/product/B01DC0IPVU/ref=oh_aui_search_detailpage?ie=UTF8&psc=1))
 - Arduino Uno
+- Adafruit Microphone Amplifier (Max4466)[https://www.adafruit.com/product/1063]
 
 ## Run instructions
 - Download Arduino IDE
